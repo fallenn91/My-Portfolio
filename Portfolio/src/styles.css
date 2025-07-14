@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    background-color: #0D3B66;
+    color: #F4F4F9;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.about {
+  margin-bottom: 3rem;
+}
+
+.carousel {
+  margin-top: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    section {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    header, footer {
+        padding: 0.8 rem;
+    }
+    .projects ul {
+        padding-left: 1rem;
+    }
+}
